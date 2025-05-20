@@ -30,6 +30,7 @@ Cd into the directory, build and run your environment:
 ```shell
 # first you need to rename tmp-env to .env
 cp -a tmp-env .env
+# (you can change passwords in the .env file if you like)
 
 # build the environment
 docker compose build
