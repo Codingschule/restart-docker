@@ -37,7 +37,7 @@ docker compose build
 # run the environment
 docker compose up -d
 ```
-Have look to your docker.desktop. The GUI for your database will be on [http://localhost:8081](http://localhost:8081). You can find the passwords in the .env file.
+Have look to your docker.desktop. The GUI for your database will be on [http://localhost:8081](http://localhost:8081). You can find the passwords in the .env file. You can login as the user "root".
 
 ### Re-Create your environment
 If you allready have a working environment and you need to re-create it you can do the following.
