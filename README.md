@@ -28,6 +28,9 @@ git clone https://github.com/Codingschule/restart-docker/tree/main
 Cd into the directory, build and run your environment:
 
 ```shell
+# first you need to rename tmp-env to .env
+cp -a tmp-env .env
+
 # build the environment
 docker compose build
 
