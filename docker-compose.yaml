@@ -24,8 +24,6 @@ services:
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-    env_file: 
-      - ./.tmp-env
     container_name: db
     image: db
     networks:
@@ -39,8 +37,6 @@ services:
     container_name: myadmin
     ports:
       - "8081:80"
-    env_file: 
-      - ./.tmp-env
     environment:
       PMA_HOST: db
       PMA_PORT: 3306
